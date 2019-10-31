@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityHome"
+    android:orientation="vertical"
+    android:background="@color/warnaapa">
+
+    <TextView
+        android:id="@+id/et_amanda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amanda T.W"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="125dp"
+        android:textSize="25dp"/>
+    <TextView
+        android:id="@+id/et_hai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="admin"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="175dp"
+        android:textSize="20dp"/>
+
+    <LinearLayout
+
+        android:id="@+id/linebutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:paddingHorizontal="30dp"
+        android:layout_below="@id/et_hai">
+
+        <Button
+            android:id="@+id/btn_fragpertama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" FRAGMENT PERTAMA "
+            android:paddingHorizontal="10dp"
+            android:background="@color/akyuu"/>
+
+        <Button
+            android:id="@+id/btn_fragkedua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" FRAGMENT KEDUA "
+            android:paddingHorizontal="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/akyuu"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
+
+
+
+</LinearLayout>

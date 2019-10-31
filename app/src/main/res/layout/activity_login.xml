@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityLogin"
+    android:background="@color/akyuu">
+
+    <EditText
+        android:id="@+id/et_username"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="200dp"/>
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/et_username"/>
+<LinearLayout
+    android:id="@+id/linier"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_below="@id/et_password">
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_password"
+        android:layout_centerHorizontal="true"
+        android:text="LOGIN"
+        android:background="@color/yeloow"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/btn_regis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_login"
+        android:layout_centerHorizontal="true"
+        android:text="REGISTRASI"
+        android:layout_marginLeft="80dp"
+        android:background="@color/yeloow"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linier"
+        android:layout_centerHorizontal="true"
+        android:text="FORGOT"
+        android:background="@color/yeloow"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>
